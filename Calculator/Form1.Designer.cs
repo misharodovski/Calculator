@@ -53,7 +53,6 @@
             this.BReverse = new System.Windows.Forms.Button();
             this.Bpoint = new System.Windows.Forms.Button();
             this.B0 = new System.Windows.Forms.Button();
-            this.button19 = new System.Windows.Forms.Button();
             this.BFULLdel = new System.Windows.Forms.Button();
             this.BExtent = new System.Windows.Forms.Button();
             this.BAns = new System.Windows.Forms.Button();
@@ -371,19 +370,6 @@
             this.B0.Text = "0";
             this.B0.UseVisualStyleBackColor = false;
             // 
-            // button19
-            // 
-            this.button19.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.button19.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.button19.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button19.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.button19.Location = new System.Drawing.Point(340, 348);
-            this.button19.Name = "button19";
-            this.button19.Size = new System.Drawing.Size(55, 50);
-            this.button19.TabIndex = 30;
-            this.button19.Text = "log";
-            this.button19.UseVisualStyleBackColor = false;
-            // 
             // BFULLdel
             // 
             this.BFULLdel.BackColor = System.Drawing.SystemColors.ControlDarkDark;
@@ -451,9 +437,9 @@
             this.BCalculate.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.BCalculate.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.BCalculate.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.BCalculate.Location = new System.Drawing.Point(340, 404);
+            this.BCalculate.Location = new System.Drawing.Point(340, 348);
             this.BCalculate.Name = "BCalculate";
-            this.BCalculate.Size = new System.Drawing.Size(55, 50);
+            this.BCalculate.Size = new System.Drawing.Size(55, 106);
             this.BCalculate.TabIndex = 36;
             this.BCalculate.Text = "=";
             this.BCalculate.UseVisualStyleBackColor = false;
@@ -516,7 +502,6 @@
             this.Controls.Add(this.BComma);
             this.Controls.Add(this.BroundBracR);
             this.Controls.Add(this.BroundBracL);
-            this.Controls.Add(this.button19);
             this.Controls.Add(this.BFULLdel);
             this.Controls.Add(this.BExtent);
             this.Controls.Add(this.BAns);
@@ -581,7 +566,6 @@
         private System.Windows.Forms.Button BReverse;
         private System.Windows.Forms.Button Bpoint;
         private System.Windows.Forms.Button B0;
-        private System.Windows.Forms.Button button19;
         private System.Windows.Forms.Button BFULLdel;
         private System.Windows.Forms.Button BExtent;
         private System.Windows.Forms.Button BAns;
